@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Container, Avatar, MainContent, Button, NickName, Ava, Header, MainData, Message, Span, PostPhoto, PostPhotoBlock, Ikons} from "./styled.js"
+import { Container, Avatar, MainContent, NickName, Ava, Header, MainData, Message, Span, PostPhoto, PostPhotoBlock, Ikons} from "./styled.js"
 import './ikons.css';
 
 // to be continue..

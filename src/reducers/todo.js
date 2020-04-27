@@ -1,8 +1,8 @@
-import { ADD_POST_INFO } from '../constants/todo_types';
+import { ADD_ITEM_TODO } from '../constants/todo_types';
 
 const todoReducer = (state=[], action)=>{
     switch(action.type) {
-        case 'ADD_ITEM_TODO':
+        case ADD_ITEM_TODO:
             return[
                 ...state,
                 {
