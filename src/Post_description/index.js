@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Container, Avatar, MainContent, Button, NickName, Ava, Header, MainData, Message, Span, PostPhoto, PostPhotoBlock, Ikons} from "./styled.js"
 import './ikons.css';
 
-// to be continue...
+// to be continue..
 function Post(props){
     const {name, photo, nickname, content, image, date, comments, retweets, likes, uploads} = props;
     const [countComments, setCountComments] = useState(0);
