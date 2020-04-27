@@ -71,7 +71,8 @@ class Posts extends Component {
           type='text' 
           placeholder='Image url'
         />
-        <List onChange={this.onChangeAuthor} >
+        <List onChange={this.onChangeAuthor}>
+              <option defaultChecked>--Choose--</option>
               <option value="Harry Poter"> Harry Poter </option>
               <option value="John Cena"> John Cena </option>
               <option value="Thomas Shelby"> Thomas Shelby </option>
